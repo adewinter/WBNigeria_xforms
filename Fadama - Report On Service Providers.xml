@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<h:html xmlns:h="http://www.w3.org/1999/xhtml" xmlns:orx="http://openrosa.org/jr/xforms" xmlns="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+	<h:head>
+		<h:title>New Form</h:title>
+		<model>
+			<instance>
+				<data xmlns:jrm="http://dev.commcarehq.org/jr/xforms" xmlns="http://openrosa.org/formdesigner/5F1B6C48-78EA-415B-8BA4-1E1C9E3158EC" uiVersion="1" version="1" name="New Form">
+					<intro />
+					<other_fca_name />
+					<other_fug_name />
+					<what_do />
+					<other_problem_desc />
+					<fug_member_broadcast />
+					<describe_problem />
+					<thank_you />
+					<thank_you_broadcast />
+				</data>
+			</instance>
+			<bind nodeset="/data/intro" />
+			<bind nodeset="/data/other_fca_name" type="xsd:string" relevant="/data/intro = 'no_other_fca'" />
+			<bind nodeset="/data/other_fug_name" type="xsd:string" relevant="/data/intro = 'no_other_fug'" />
+			<bind nodeset="/data/what_do" />
+			<bind nodeset="/data/other_problem_desc" type="xsd:string" relevant="/data/what_do = 'report_other'" />
+			<bind nodeset="/data/fug_member_broadcast" type="xsd:string" relevant="/data/what_do = 'fug_announcement'" />
+			<bind nodeset="/data/describe_problem" />
+			<bind nodeset="/data/thank_you" relevant="/data/what_do != 'fug_announcement'" />
+			<bind nodeset="/data/thank_you_broadcast" relevant="/data/what_do = 'fug_announcement'" />
+			<itext>
+				<translation lang="en" default="">
+					<text id="intro-label">
+						<value>Welcome to FarmCheck. All responses are free. You are reporting for Anagada Farmers Union FCA, correct?</value>
+					</text>
+					<text id="intro-yes-label">
+						<value>Yes</value>
+					</text>
+					<text id="intro-no_other_fca-label">
+						<value>No, Another FCA</value>
+					</text>
+					<text id="intro-no_other_fug-label">
+						<value>No, a FUG within that FCA</value>
+					</text>
+					<text id="intro-help-label">
+						<value>help</value>
+					</text>
+					<text id="what_do-label">
+						<value>What would you like to do?</value>
+					</text>
+					<text id="what_do-report_problems_sp-label">
+						<value>Report Problems with Service Provider</value>
+					</text>
+					<text id="what_do-report_facilitator-label">
+						<value>Report Problems with Facilitator</value>
+					</text>
+					<text id="what_do-report_other-label">
+						<value>Report other problems</value>
+					</text>
+					<text id="what_do-fug_announcement-label">
+						<value>FUG Member Announcement</value>
+					</text>
+					<text id="describe_problem-label">
+						<value>Please describe the problems with Service Provider. Enter number for each separated by space.</value>
+					</text>
+					<text id="describe_problem-delayed_exec-label">
+						<value>Delayed execution</value>
+					</text>
+					<text id="describe_problem-stopped_exec-label">
+						<value>Stopped execution</value>
+					</text>
+					<text id="describe_problem-fault_during_exec-label">
+						<value>Fault during execution</value>
+					</text>
+					<text id="thank_you-label">
+						<value> Thank you. Your request has been sent to the State CDO. You should hear back from your enquiry within a week.</value>
+					</text>
+					<text id="other_fca_name-label">
+						<value>Please enter the name of the FCA</value>
+					</text>
+					<text id="other_fug_name-label">
+						<value>Please enter the name of the FUG</value>
+					</text>
+					<text id="other_problem_desc-label">
+						<value>Please send a short description of the problem</value>
+					</text>
+					<text id="fug_member_broadcast-label">
+						<value>Please reply with the message you would like to announce</value>
+					</text>
+					<text id="thank_you_broadcast-label">
+						<value>Thank you.  Your announcement will be sent out shortly.</value>
+					</text>
+				</translation>
+			</itext>
+		</model>
+	</h:head>
+	<h:body>
+		<select1 ref="/data/intro">
+			<label ref="jr:itext('intro-label')" />
+			<item>
+				<label ref="jr:itext('intro-yes-label')" />
+				<value>yes</value>
+			</item>
+			<item>
+				<label ref="jr:itext('intro-no_other_fca-label')" />
+				<value>no_other_fca</value>
+			</item>
+			<item>
+				<label ref="jr:itext('intro-no_other_fug-label')" />
+				<value>no_other_fug</value>
+			</item>
+			<item>
+				<label ref="jr:itext('intro-help-label')" />
+				<value>help</value>
+			</item>
+		</select1>
+		<input ref="/data/other_fca_name">
+			<label ref="jr:itext('other_fca_name-label')" />
+		</input>
+		<input ref="/data/other_fug_name">
+			<label ref="jr:itext('other_fug_name-label')" />
+		</input>
+		<select1 ref="/data/what_do">
+			<label ref="jr:itext('what_do-label')" />
+			<item>
+				<label ref="jr:itext('what_do-report_problems_sp-label')" />
+				<value>report_problems_sp</value>
+			</item>
+			<item>
+				<label ref="jr:itext('what_do-report_facilitator-label')" />
+				<value>report_facilitator</value>
+			</item>
+			<item>
+				<label ref="jr:itext('what_do-report_other-label')" />
+				<value>report_other</value>
+			</item>
+			<item>
+				<label ref="jr:itext('what_do-fug_announcement-label')" />
+				<value>fug_announcement</value>
+			</item>
+		</select1>
+		<input ref="/data/other_problem_desc">
+			<label ref="jr:itext('other_problem_desc-label')" />
+		</input>
+		<input ref="/data/fug_member_broadcast">
+			<label ref="jr:itext('fug_member_broadcast-label')" />
+		</input>
+		<select ref="/data/describe_problem">
+			<label ref="jr:itext('describe_problem-label')" />
+			<item>
+				<label ref="jr:itext('describe_problem-delayed_exec-label')" />
+				<value>delayed_exec</value>
+			</item>
+			<item>
+				<label ref="jr:itext('describe_problem-stopped_exec-label')" />
+				<value>stopped_exec</value>
+			</item>
+			<item>
+				<label ref="jr:itext('describe_problem-fault_during_exec-label')" />
+				<value>fault_during_exec</value>
+			</item>
+		</select>
+		<trigger ref="/data/thank_you">
+			<label ref="jr:itext('thank_you-label')" />
+		</trigger>
+		<trigger ref="/data/thank_you_broadcast">
+			<label ref="jr:itext('thank_you_broadcast-label')" />
+		</trigger>
+	</h:body>
+</h:html>
