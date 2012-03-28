@@ -22,7 +22,7 @@
 			<bind nodeset="/data/what_do" />
 			<bind nodeset="/data/other_problem_desc" type="xsd:string" relevant="/data/what_do = 'report_other'" />
 			<bind nodeset="/data/fug_member_broadcast" type="xsd:string" relevant="/data/what_do = 'fug_announcement'" />
-			<bind nodeset="/data/describe_problem" />
+			<bind nodeset="/data/describe_problem" relevant="/data/what_do != 'report_other' and /data/what_do != 'fug_announcement'" />
 			<bind nodeset="/data/thank_you" relevant="/data/what_do != 'fug_announcement'" />
 			<bind nodeset="/data/thank_you_broadcast" relevant="/data/what_do = 'fug_announcement'" />
 			<itext>
