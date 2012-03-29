@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<h:html xmlns:h="http://www.w3.org/1999/xhtml" xmlns:orx="http://openrosa.org/jr/xforms" xmlns="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+	<h:head>
+		<h:title>New Form</h:title>
+		<model>
+			<instance>
+				<data xmlns:jrm="http://dev.commcarehq.org/jr/xforms" xmlns="http://openrosa.org/formdesigner/5F1B6C48-78EA-415B-8BA4-1E1C9E3158EC" uiVersion="1" version="1" name="New Form">
+					<intro />
+					<other_fca_name />
+					<label1 />
+					<question52 />
+					<question53 />
+					<last_visit />
+					<why_visit />
+					<received_thank_you />
+				</data>
+			</instance>
+			<bind nodeset="/data/intro" />
+			<bind nodeset="/data/other_fca_name" type="xsd:string" relevant="/data/intro = 'no_other_fca'" />
+			<bind nodeset="/data/label1" />
+			<bind nodeset="/data/question52" />
+			<bind nodeset="/data/question53" />
+			<bind nodeset="/data/last_visit" />
+			<bind nodeset="/data/why_visit" />
+			<bind nodeset="/data/received_thank_you" />
+			<itext>
+				<translation lang="en" default="">
+					<text id="intro-label">
+						<value>Welcome to We Report All responses are free. Are you in Nassarawa? Send:</value>
+					</text>
+					<text id="intro-yes-label">
+						<value>Yes</value>
+					</text>
+					<text id="intro-no_other_fca-label">
+						<value>No</value>
+					</text>
+					<text id="other_fca_name-label">
+						<value>Please enter the name of your area</value>
+					</text>
+					<text id="last_visit-label">
+						<value>When was your last visit to the clinic?</value>
+					</text>
+					<text id="last_visit-week-label">
+						<value>a week</value>
+					</text>
+					<text id="last_visit-month-label">
+						<value>a month</value>
+					</text>
+					<text id="last_visit-six_month-label">
+						<value>six months</value>
+					</text>
+					<text id="last_visit-year-label">
+						<value>a year</value>
+					</text>
+					<text id="why_visit-label">
+						<value>Why did you visit?</value>
+					</text>
+					<text id="why_visit-med-label">
+						<value>Medicine</value>
+					</text>
+					<text id="why_visit-vaccine-label">
+						<value>Vaccine</value>
+					</text>
+					<text id="why_visit-typhoid-label">
+						<value>Typhoid</value>
+					</text>
+					<text id="why_visit-other-label">
+						<value>Other</value>
+					</text>
+					<text id="received_thank_you-label">
+						<value>We have Received your information. Thanks for your time!</value>
+					</text>
+					<text id="label1-label">
+						<value>Label 1</value>
+					</text>
+					<text id="question52-label">
+						<value>Label 2</value>
+					</text>
+					<text id="question53-label">
+						<value>Label 3</value>
+					</text>
+				</translation>
+			</itext>
+		</model>
+	</h:head>
+	<h:body>
+		<select1 ref="/data/intro">
+			<label ref="jr:itext('intro-label')" />
+			<item>
+				<label ref="jr:itext('intro-yes-label')" />
+				<value>yes</value>
+			</item>
+			<item>
+				<label ref="jr:itext('intro-no_other_fca-label')" />
+				<value>no_other_fca</value>
+			</item>
+		</select1>
+		<input ref="/data/other_fca_name">
+			<label ref="jr:itext('other_fca_name-label')" />
+		</input>
+		<trigger ref="/data/label1">
+			<label ref="jr:itext('label1-label')" />
+		</trigger>
+		<trigger ref="/data/question52">
+			<label ref="jr:itext('question52-label')" />
+		</trigger>
+		<trigger ref="/data/question53">
+			<label ref="jr:itext('question53-label')" />
+		</trigger>
+		<select1 ref="/data/last_visit">
+			<label ref="jr:itext('last_visit-label')" />
+			<item>
+				<label ref="jr:itext('last_visit-week-label')" />
+				<value>week</value>
+			</item>
+			<item>
+				<label ref="jr:itext('last_visit-month-label')" />
+				<value>month</value>
+			</item>
+			<item>
+				<label ref="jr:itext('last_visit-six_month-label')" />
+				<value>six_month</value>
+			</item>
+			<item>
+				<label ref="jr:itext('last_visit-year-label')" />
+				<value>year</value>
+			</item>
+		</select1>
+		<select1 ref="/data/why_visit">
+			<label ref="jr:itext('why_visit-label')" />
+			<item>
+				<label ref="jr:itext('why_visit-med-label')" />
+				<value>med</value>
+			</item>
+			<item>
+				<label ref="jr:itext('why_visit-vaccine-label')" />
+				<value>vaccine</value>
+			</item>
+			<item>
+				<label ref="jr:itext('why_visit-typhoid-label')" />
+				<value>typhoid</value>
+			</item>
+			<item>
+				<label ref="jr:itext('why_visit-other-label')" />
+				<value>other</value>
+			</item>
+		</select1>
+		<trigger ref="/data/received_thank_you">
+			<label ref="jr:itext('received_thank_you-label')" />
+		</trigger>
+	</h:body>
+</h:html>
