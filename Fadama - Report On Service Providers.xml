@@ -4,7 +4,7 @@
 		<h:title>New Form</h:title>
 		<model>
 			<instance>
-				<data xmlns:jrm="http://dev.commcarehq.org/jr/xforms" xmlns="http://openrosa.org/formdesigner/5F1B6C48-78EA-415B-8BA4-1E1C9E3158EC" uiVersion="1" version="1" name="New Form">
+				<data xmlns:jrm="http://dev.commcarehq.org/jr/xforms" xmlns="http://openrosa.org/formdesigner/FADAMA_FORM" uiVersion="2" version="2" name="Fadama Form">
 					<intro />
 					<other_fca_name />
 					<other_fug_name />
@@ -22,7 +22,7 @@
 			<bind nodeset="/data/what_do" />
 			<bind nodeset="/data/other_problem_desc" type="xsd:string" relevant="/data/what_do = 'report_other'" />
 			<bind nodeset="/data/fug_member_broadcast" type="xsd:string" relevant="/data/what_do = 'fug_announcement'" />
-			<bind nodeset="/data/describe_problem" relevant="/data/what_do != 'report_other' and /data/what_do != 'fug_announcement'" />
+			<bind nodeset="/data/describe_problem" relevant="/data/what_do != 'fug_announcement'"/>
 			<bind nodeset="/data/thank_you" relevant="/data/what_do != 'fug_announcement'" />
 			<bind nodeset="/data/thank_you_broadcast" relevant="/data/what_do = 'fug_announcement'" />
 			<itext>
@@ -70,7 +70,7 @@
 						<value>Fault during execution</value>
 					</text>
 					<text id="thank_you-label">
-						<value> Thank you. Your request has been sent to the State CDO. You should hear back from your enquiry within a week.</value>
+						<value>We have Received your information. Thanks for your time!</value>
 					</text>
 					<text id="other_fca_name-label">
 						<value>Please enter the name of the FCA</value>
