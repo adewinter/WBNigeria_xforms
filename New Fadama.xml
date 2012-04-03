@@ -4,7 +4,7 @@
 		<h:title>Fadama Scenario 2</h:title>
 		<model>
 			<instance>
-				<data xmlns:jrm="http://dev.commcarehq.org/jr/xforms" xmlns="http://openrosa.org/formdesigner/57927D60-B442-4341-9DD9-B3F40A6A7813" uiVersion="1" version="1" name="Fadama Scenario 2">
+				<data xmlns:jrm="http://dev.commcarehq.org/jr/xforms" xmlns="http://openrosa.org/formdesigner/NewFadama" uiVersion="2" version="2" name="Fadama Scenario 2">
 					<confirm_location />
 					<how_is_project_going />
 					<well_explanation />
@@ -23,7 +23,7 @@
 				</data>
 			</instance>
 			<bind nodeset="/data/confirm_location" type="xsd:int" />
-			<bind nodeset="/data/how_is_project_going" type="xsd:int" />
+			<bind nodeset="/data/how_is_project_going" type="xsd:int" relevant="/data/confirm_location = 1"  />
 			<bind nodeset="/data/well_explanation" type="xsd:string" relevant="/data/how_is_project_going = 1" />
 			<bind nodeset="/data/well_thanks" type="xsd:int" relevant="/data/how_is_project_going = 1" />
 			<bind nodeset="/data/well_thanks_yes" relevant="/data/well_thanks = 1" />
@@ -40,7 +40,7 @@
 			<itext>
 				<translation lang="en" default="">
 					<text id="confirm_location-label">
-						<value>Do you belong to an FUG in Nasarawa? For yes, send “1”. For no, send “2” to 0816 5677 415</value>
+						<value>Do you belong to an FUG in Nasarawa? For yes, send "1". For no, send "2" to 0816 5677 415</value>
 					</text>
 					<text id="how_is_project_going-label">
 						<value>How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 0816 5677 415</value>
@@ -49,10 +49,10 @@
 						<value>What is going well with your project? </value>
 					</text>
 					<text id="well_thanks-label">
-						<value>Thank you. Can we ask you more questions in the future? For yes, send “1”. For no, send “2” to 0816 5677 415</value>
+						<value>Thank you. Can we ask you more questions in the future? For yes, send "1". For no, send "2" to 0816 5677 415</value>
 					</text>
 					<text id="well_thanks_yes-label">
-						<value>Thank you! We will contact you in the future.” </value>
+						<value>Thank you! We will contact you in the future." </value>
 					</text>
 					<text id="well_thanks_no-label">
 						<value>Thank you for being part of this survey</value>
