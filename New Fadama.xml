@@ -4,7 +4,7 @@
 		<h:title>Fadama Scenario 2</h:title>
 		<model>
 			<instance>
-				<data xmlns:jrm="http://dev.commcarehq.org/jr/xforms" xmlns="http://openrosa.org/formdesigner/A7C64FFE-F50A-430C-BFB9-04A59DD9F590" uiVersion="1" version="1" name="Fadama Scenario 2">
+				<data xmlns:jrm="http://dev.commcarehq.org/jr/xforms" xmlns="http://openrosa.org/formdesigner/57927D60-B442-4341-9DD9-B3F40A6A7813" uiVersion="1" version="1" name="Fadama Scenario 2">
 					<confirm_location />
 					<how_is_project_going />
 					<well_explanation />
@@ -15,7 +15,6 @@
 					<sp_confirm />
 					<people_from_fadama_select />
 					<money />
-					<other />
 					<specify_problem_free />
 					<thanks_complaint_received />
 					<different_fug_or_fca />
@@ -25,20 +24,19 @@
 			</instance>
 			<bind nodeset="/data/confirm_location" type="xsd:int" />
 			<bind nodeset="/data/how_is_project_going" type="xsd:int" />
-			<bind nodeset="/data/well_explanation" type="xsd:string" />
-			<bind nodeset="/data/well_thanks" type="xsd:int" />
-			<bind nodeset="/data/well_thanks_yes" />
-			<bind nodeset="/data/well_thanks_no" />
-			<bind nodeset="/data/not_satisfied_select" />
-			<bind nodeset="/data/sp_confirm" />
-			<bind nodeset="/data/people_from_fadama_select" />
-			<bind nodeset="/data/money" />
-			<bind nodeset="/data/other" type="xsd:string" />
-			<bind nodeset="/data/specify_problem_free" type="xsd:string" />
-			<bind nodeset="/data/thanks_complaint_received" />
-			<bind nodeset="/data/different_fug_or_fca" type="xsd:string" />
-			<bind nodeset="/data/describe_other_loc_problem" type="xsd:string" />
-			<bind nodeset="/data/message_received" />
+			<bind nodeset="/data/well_explanation" type="xsd:string" relevant="/data/how_is_project_going = 1" />
+			<bind nodeset="/data/well_thanks" type="xsd:int" relevant="/data/how_is_project_going = 1" />
+			<bind nodeset="/data/well_thanks_yes" relevant="/data/well_thanks = 1" />
+			<bind nodeset="/data/well_thanks_no" relevant="/data/well_thanks = 2" />
+			<bind nodeset="/data/not_satisfied_select" relevant="/data/how_is_project_going = 2" />
+			<bind nodeset="/data/sp_confirm" relevant="/data/not_satisfied_select = 'service_providers'" />
+			<bind nodeset="/data/people_from_fadama_select" relevant="/data/not_satisfied_select = 'people_from_fadama'" />
+			<bind nodeset="/data/money" relevant="/data/not_satisfied_select = 'money'" />
+			<bind nodeset="/data/specify_problem_free" type="xsd:string" relevant="/data/not_satisfied_select = 'other' or /data/sp_confirm = 'other' or /data/people_from_fadama_select = 'Other' or /data/money = 'other'" />
+			<bind nodeset="/data/thanks_complaint_received" relevant="/data/how_is_project_going = 2" />
+			<bind nodeset="/data/different_fug_or_fca" type="xsd:string" relevant="/data/confirm_location = 2" />
+			<bind nodeset="/data/describe_other_loc_problem" type="xsd:string" relevant="/data/confirm_location = 2" />
+			<bind nodeset="/data/message_received" relevant="/data/confirm_location = 2" />
 			<itext>
 				<translation lang="en" default="">
 					<text id="confirm_location-label">
@@ -120,9 +118,6 @@
 						<value>Bank Account Opening</value>
 					</text>
 					<text id="money-other-label">
-						<value>Other</value>
-					</text>
-					<text id="other-label">
 						<value>Other</value>
 					</text>
 					<text id="different_fug_or_fca-label">
@@ -229,9 +224,6 @@
 				<value>other</value>
 			</item>
 		</select1>
-		<input ref="/data/other">
-			<label ref="jr:itext('other-label')" />
-		</input>
 		<input ref="/data/specify_problem_free">
 			<label ref="jr:itext('specify_problem_free-label')" />
 		</input>
