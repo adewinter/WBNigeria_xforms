@@ -1,325 +1,359 @@
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-1,+2348105576896,Fadama Phase I.xml,2012-04-04 04:36:18.278151,None,-1,True
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+1	+2348105576896	Fadama Phase I.xml	2012-04-04 04:36:18.278151	None	-1	True
 
-,Text,Date,Direction (In/Out)
-,Phase1hausa,2012-04-04 09:10:09.404801,I
-,1234,2012-04-04 09:13:25.098351,I
-,List register,2012-04-04 09:27:54.791329,I
-,List register,2012-04-04 09:36:02.439647,I
-,You are not registered at any locations!,2012-04-04 09:36:02.628371,O
-,English1,2012-04-04 09:36:18.211398,I
-,Do you belong to an FUG in Nasarawa? For yes, send "1". For no, send "2" to 0816 5677 415,2012-04-04 09:36:19.015117,O
-,Hausa1,2012-04-04 09:36:41.581249,I
-,Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415,2012-04-04 09:36:41.884404,O
-,2,2012-04-04 09:37:04.356231,I
-,Kana wani FUG/FCA ne?,2012-04-04 09:37:04.547402,O
-,Fsdg,2012-04-04 09:37:23.802668,I
-,Mainene damuwan ka?,2012-04-04 09:37:23.978205,O
-,1,2012-04-04 09:37:47.555208,I
-,Mun gode! Mun ji damuwan ka.,2012-04-04 09:37:47.843676,O
-,ENGLISH1,2012-04-04 09:44:33.020765,I
-,Do you belong to an FUG in Nasarawa? For yes, send "1". For no, send "2" to 0816 5677 415,2012-04-04 09:44:33.342397,O
-,2,2012-04-04 09:45:33.126400,I
-,What FUG or FCA are you from?,2012-04-04 09:45:33.411279,O
-,Vkd,2012-04-04 09:46:01.865877,I
-,What problem do you have?,2012-04-04 09:46:02.032955,O
-,None,2012-04-04 09:46:33.225032,I
-,Your message has been received. Thank You!,2012-04-04 09:46:33.600381,O
-,Ping,2012-04-04 10:07:14.532764,I
-,Message not understood. Please try again,2012-04-04 10:07:14.734183,O
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Do you belong to an FUG in Nasarawa? For yes, send "1". For no, send "2" to 0816 5677 415	2012-04-04 04:36:19.015117	O
+	Hausa1	2012-04-04 04:36:41.581249	I
+	Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415	2012-04-04 04:36:41.884404	O
+	2	2012-04-04 04:37:04.356231	I
+	Kana wani FUG/FCA ne?	2012-04-04 04:37:04.547402	O
+	Fsdg	2012-04-04 04:37:23.802668	I
+	Mainene damuwan ka?	2012-04-04 04:37:23.978205	O
+	1	2012-04-04 04:37:47.555208	I
+	Mun gode! Mun ji damuwan ka.	2012-04-04 04:37:47.843676	O
+	ENGLISH1	2012-04-04 04:44:33.020765	I
+	Do you belong to an FUG in Nasarawa? For yes, send "1". For no, send "2" to 0816 5677 415	2012-04-04 04:44:33.342397	O
+	2	2012-04-04 04:45:33.126400	I
+	What FUG or FCA are you from?	2012-04-04 04:45:33.411279	O
+	Vkd	2012-04-04 04:46:01.865877	I
+	What problem do you have?	2012-04-04 04:46:02.032955	O
+	None	2012-04-04 04:46:33.225032	I
+	Your message has been received. Thank You!	2012-04-04 04:46:33.600381	O
+	Ping	2012-04-04 05:07:14.532764	I
+	Message not understood. Please try again	2012-04-04 05:07:14.734183	O
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-13,+2348068232903,New Fadama.xml,2012-04-04 06:08:06.257975,2012-04-04 06:16:29.724282,0:08:23.466307,True
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+13	+2348068232903	New Fadama.xml	2012-04-04 06:08:06.257975	2012-04-04 06:16:29.724282	0:08:23.466307	True
 
-,Text,Date,Direction (In/Out)
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 06:08:06.423813	O
+	1	2012-04-04 06:08:52.158972	I
+	How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415	2012-04-04 06:08:52.340321	O
+	1	2012-04-04 06:09:40.085900	I
+	What is going well with your project?	2012-04-04 06:09:40.277616	O
+	The project is good because it helps a lot,for example some people don't have money 2 feed but with the help of the world bank, people can feed their for them 2 survive	2012-04-04 06:14:10.888863	I
+	Thank you. Can we ask you more questions in the future? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 06:14:11.055249	O
+	1	2012-04-04 06:16:29.521940	I
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-2,+2348105576896,Fadama Phase I Hausa.xml,2012-04-04 04:36:41.678843,2012-04-04 04:37:47.782760,0:01:06.103917,True
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+2	+2348105576896	Fadama Phase I Hausa.xml	2012-04-04 04:36:41.678843	2012-04-04 04:37:47.782760	0:01:06.103917	True
 
-,Text,Date,Direction (In/Out)
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415	2012-04-04 04:36:41.884404	O
+	2	2012-04-04 04:37:04.356231	I
+	Kana wani FUG/FCA ne?	2012-04-04 04:37:04.547402	O
+	Fsdg	2012-04-04 04:37:23.802668	I
+	Mainene damuwan ka?	2012-04-04 04:37:23.978205	O
+	1	2012-04-04 04:37:47.555208	I
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-3,+2348165693249,New Fadama.xml,2012-04-04 04:41:52.550558,None,-1,True
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+3	+2348165693249	New Fadama.xml	2012-04-04 04:41:52.550558	None	-1	True
 
-,Text,Date,Direction (In/Out)
-,1234,2012-04-04 09:41:52.489621,I
-,Do you belong to an FUG in Nasarawa? For yes, send "1". For no, send "2" to 0816 5677 415,2012-04-04 09:41:52.748385,O
-,ENGLISH1,2012-04-04 09:44:19.014120,I
-,Do you belong to an FUG in Nasarawa? For yes, send "1". For no, send "2" to 0816 5677 415,2012-04-04 09:44:19.273119,O
-,1,2012-04-04 09:44:52.215533,I
-,How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415,2012-04-04 09:44:52.406075,O
-,2,2012-04-04 09:45:33.648823,I
-,What is your MAIN problem? 1:With LDP, 2:People from Fadama, 3:Money, 4:Other,2012-04-04 09:45:33.818084,O
-,5678,2012-04-04 10:12:29.251845,I
-,Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415,2012-04-04 10:12:29.535719,O
-,2,2012-04-04 10:13:14.375285,I
-,Kana wani FUG/FCA ne?,2012-04-04 10:13:14.549863,O
-,wamba,2012-04-04 10:14:39.059817,I
-,Mainene damuwan ka?,2012-04-04 10:14:39.237927,O
-,,2012-04-04 10:15:48.720342,I
-,Mun gode! Mun ji damuwan ka.,2012-04-04 10:15:49.009713,O
-,1234,2012-04-04 10:21:12.217170,I
-,Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415,2012-04-04 10:21:12.445082,O
-,2,2012-04-04 10:22:02.084035,I
-,What FUG or FCA are you from?,2012-04-04 10:22:02.267236,O
-,1234,2012-04-04 10:59:02.938814,I
-,Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415,2012-04-04 10:59:03.257583,O
-,1234,2012-04-04 11:47:00.319946,I
-,Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415,2012-04-04 11:47:00.602998,O
-,1,2012-04-04 11:47:44.235693,I
-,How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415,2012-04-04 11:47:44.464844,O
-,2,2012-04-04 11:48:32.125584,I
-,What is your MAIN problem? 1:Service providers, 2:People from Fadama, 3:Money, 4:Other,2012-04-04 11:48:32.302005,O
-,3,2012-04-04 11:49:29.249111,I
-, 1:Delayed Funding, 2:Bank Account Opening, 3:Other,2012-04-04 11:49:29.422212,O
-,1,2012-04-04 11:50:08.831883,I
-,Thank you. Your complaint has been received.,2012-04-04 11:50:09.074805,O
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Do you belong to an FUG in Nasarawa? For yes, send "1". For no, send "2" to 0816 5677 415	2012-04-04 04:41:52.748385	O
+	ENGLISH1	2012-04-04 04:44:19.014120	I
+	Do you belong to an FUG in Nasarawa? For yes, send "1". For no, send "2" to 0816 5677 415	2012-04-04 04:44:19.273119	O
+	1	2012-04-04 04:44:52.215533	I
+	How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415	2012-04-04 04:44:52.406075	O
+	2	2012-04-04 04:45:33.648823	I
+	What is your MAIN problem? 1:With LDP, 2:People from Fadama, 3:Money, 4:Other	2012-04-04 04:45:33.818084	O
+	5678	2012-04-04 05:12:29.251845	I
+	Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415	2012-04-04 05:12:29.535719	O
+	2	2012-04-04 05:13:14.375285	I
+	Kana wani FUG/FCA ne?	2012-04-04 05:13:14.549863	O
+	wamba	2012-04-04 05:14:39.059817	I
+	Mainene damuwan ka?	2012-04-04 05:14:39.237927	O
+		2012-04-04 05:15:48.720342	I
+	Mun gode! Mun ji damuwan ka.	2012-04-04 05:15:49.009713	O
+	1234	2012-04-04 05:21:12.217170	I
+	Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 05:21:12.445082	O
+	2	2012-04-04 05:22:02.084035	I
+	What FUG or FCA are you from?	2012-04-04 05:22:02.267236	O
+	1234	2012-04-04 05:59:02.938814	I
+	Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 05:59:03.257583	O
+	1234	2012-04-04 06:47:00.319946	I
+	Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 06:47:00.602998	O
+	1	2012-04-04 06:47:44.235693	I
+	How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415	2012-04-04 06:47:44.464844	O
+	2	2012-04-04 06:48:32.125584	I
+	What is your MAIN problem? 1:Service providers, 2:People from Fadama, 3:Money, 4:Other	2012-04-04 06:48:32.302005	O
+	3	2012-04-04 06:49:29.249111	I
+	 1:Delayed Funding, 2:Bank Account Opening, 3:Other	2012-04-04 06:49:29.422212	O
+	1	2012-04-04 06:50:08.831883	I
+	Thank you. Your complaint has been received.	2012-04-04 06:50:09.074805	O
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-14,+2348065563350,New Fadama.xml,2012-04-04 06:18:48.824449,2012-04-04 06:26:35.404541,0:07:46.580092,True
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+14	+2348065563350	New Fadama.xml	2012-04-04 06:18:48.824449	2012-04-04 06:26:35.404541	0:07:46.580092	True
 
-,Text,Date,Direction (In/Out)
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 06:18:48.998046	O
+	1	2012-04-04 06:21:31.036383	I
+	How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415	2012-04-04 06:21:31.208575	O
+	1	2012-04-04 06:22:47.215767	I
+	What is going well with your project?	2012-04-04 06:22:47.411004	O
+	1	2012-04-04 06:25:38.546677	I
+	Thank you. Can we ask you more questions in the future? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 06:25:38.744513	O
+	1	2012-04-04 06:26:35.199168	I
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-22,+2347035602064,New Fadama.xml,2012-04-04 08:22:08.199798,2012-04-04 08:28:10.248813,0:06:02.049015,True
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+22	+2347035602064	New Fadama.xml	2012-04-04 08:22:08.199798	2012-04-04 08:28:10.248813	0:06:02.049015	True
 
-,Text,Date,Direction (In/Out)
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 08:22:08.365945	O
+	1	2012-04-04 08:22:52.592252	I
+	How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415	2012-04-04 08:22:52.763615	O
+	1	2012-04-04 08:24:34.241452	I
+	What is going well with your project?	2012-04-04 08:24:34.420852	O
+	because i have benefited & continue the enterprise	2012-04-04 08:26:53.495294	I
+	Thank you. Can we ask you more questions in the future? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 08:26:53.660995	O
+	1	2012-04-04 08:28:10.071160	I
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-4,+2348035967662,Fadama Phase I Hausa.xml,2012-04-04 04:44:08.052654,None,-1,True
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+4	+2348035967662	Fadama Phase I Hausa.xml	2012-04-04 04:44:08.052654	None	-1	True
 
-,Text,Date,Direction (In/Out)
-,Hausa1,2012-04-04 09:44:07.994823,I
-,Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415,2012-04-04 09:44:08.273864,O
-,English2,2012-04-04 13:29:52.238643,I
-,Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415,2012-04-04 13:29:52.529354,O
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415	2012-04-04 04:44:08.273864	O
+	English2	2012-04-04 08:29:52.238643	I
+	Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 08:29:52.529354	O
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-15,+2347036740414,Fadama Phase II.xml,2012-04-04 06:30:31.624536,2012-04-04 06:39:25.499056,0:08:53.874520,True
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+15	+2347036740414	Fadama Phase II.xml	2012-04-04 06:30:31.624536	2012-04-04 06:39:25.499056	0:08:53.874520	True
 
-,Text,Date,Direction (In/Out)
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 06:30:31.791662	O
+	1	2012-04-04 06:32:33.934002	I
+	How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415	2012-04-04 06:32:34.107574	O
+	2	2012-04-04 06:35:21.450247	I
+	What is your MAIN problem? 1:Service providers, 2:People from Fadama, 3:Money, 4:Land, 5:Other	2012-04-04 06:35:21.604246	O
+	3	2012-04-04 06:37:37.159015	I
+	 1:Delayed Funding, 2:Other	2012-04-04 06:37:37.645301	O
+	1	2012-04-04 06:39:25.321838	I
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-6,+2348105576896,Fadama Phase I.xml,2012-04-04 04:44:33.098106,2012-04-04 04:46:33.536191,0:02:00.438085,True
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+6	+2348105576896	Fadama Phase I.xml	2012-04-04 04:44:33.098106	2012-04-04 04:46:33.536191	0:02:00.438085	True
 
-,Text,Date,Direction (In/Out)
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Do you belong to an FUG in Nasarawa? For yes, send "1". For no, send "2" to 0816 5677 415	2012-04-04 04:44:33.342397	O
+	2	2012-04-04 04:45:33.126400	I
+	What FUG or FCA are you from?	2012-04-04 04:45:33.411279	O
+	Vkd	2012-04-04 04:46:01.865877	I
+	What problem do you have?	2012-04-04 04:46:02.032955	O
+	None	2012-04-04 04:46:33.225032	I
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-12,+2348165693249,New Fadama.xml,2012-04-04 05:59:03.084153,None,-1,True
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+12	+2348165693249	New Fadama.xml	2012-04-04 05:59:03.084153	None	-1	True
 
-,Text,Date,Direction (In/Out)
-,1234,2012-04-04 09:41:52.489621,I
-,Do you belong to an FUG in Nasarawa? For yes, send "1". For no, send "2" to 0816 5677 415,2012-04-04 09:41:52.748385,O
-,ENGLISH1,2012-04-04 09:44:19.014120,I
-,Do you belong to an FUG in Nasarawa? For yes, send "1". For no, send "2" to 0816 5677 415,2012-04-04 09:44:19.273119,O
-,1,2012-04-04 09:44:52.215533,I
-,How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415,2012-04-04 09:44:52.406075,O
-,2,2012-04-04 09:45:33.648823,I
-,What is your MAIN problem? 1:With LDP, 2:People from Fadama, 3:Money, 4:Other,2012-04-04 09:45:33.818084,O
-,5678,2012-04-04 10:12:29.251845,I
-,Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415,2012-04-04 10:12:29.535719,O
-,2,2012-04-04 10:13:14.375285,I
-,Kana wani FUG/FCA ne?,2012-04-04 10:13:14.549863,O
-,wamba,2012-04-04 10:14:39.059817,I
-,Mainene damuwan ka?,2012-04-04 10:14:39.237927,O
-,,2012-04-04 10:15:48.720342,I
-,Mun gode! Mun ji damuwan ka.,2012-04-04 10:15:49.009713,O
-,1234,2012-04-04 10:21:12.217170,I
-,Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415,2012-04-04 10:21:12.445082,O
-,2,2012-04-04 10:22:02.084035,I
-,What FUG or FCA are you from?,2012-04-04 10:22:02.267236,O
-,1234,2012-04-04 10:59:02.938814,I
-,Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415,2012-04-04 10:59:03.257583,O
-,1234,2012-04-04 11:47:00.319946,I
-,Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415,2012-04-04 11:47:00.602998,O
-,1,2012-04-04 11:47:44.235693,I
-,How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415,2012-04-04 11:47:44.464844,O
-,2,2012-04-04 11:48:32.125584,I
-,What is your MAIN problem? 1:Service providers, 2:People from Fadama, 3:Money, 4:Other,2012-04-04 11:48:32.302005,O
-,3,2012-04-04 11:49:29.249111,I
-, 1:Delayed Funding, 2:Bank Account Opening, 3:Other,2012-04-04 11:49:29.422212,O
-,1,2012-04-04 11:50:08.831883,I
-,Thank you. Your complaint has been received.,2012-04-04 11:50:09.074805,O
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 05:59:03.257583	O
+	1234	2012-04-04 06:47:00.319946	I
+	Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 06:47:00.602998	O
+	1	2012-04-04 06:47:44.235693	I
+	How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415	2012-04-04 06:47:44.464844	O
+	2	2012-04-04 06:48:32.125584	I
+	What is your MAIN problem? 1:Service providers, 2:People from Fadama, 3:Money, 4:Other	2012-04-04 06:48:32.302005	O
+	3	2012-04-04 06:49:29.249111	I
+	 1:Delayed Funding, 2:Bank Account Opening, 3:Other	2012-04-04 06:49:29.422212	O
+	1	2012-04-04 06:50:08.831883	I
+	Thank you. Your complaint has been received.	2012-04-04 06:50:09.074805	O
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-5,+2348165693249,Fadama Phase I.xml,2012-04-04 04:44:19.106150,None,-1,True
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+5	+2348165693249	Fadama Phase I.xml	2012-04-04 04:44:19.106150	None	-1	True
 
-,Text,Date,Direction (In/Out)
-,1234,2012-04-04 09:41:52.489621,I
-,Do you belong to an FUG in Nasarawa? For yes, send "1". For no, send "2" to 0816 5677 415,2012-04-04 09:41:52.748385,O
-,ENGLISH1,2012-04-04 09:44:19.014120,I
-,Do you belong to an FUG in Nasarawa? For yes, send "1". For no, send "2" to 0816 5677 415,2012-04-04 09:44:19.273119,O
-,1,2012-04-04 09:44:52.215533,I
-,How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415,2012-04-04 09:44:52.406075,O
-,2,2012-04-04 09:45:33.648823,I
-,What is your MAIN problem? 1:With LDP, 2:People from Fadama, 3:Money, 4:Other,2012-04-04 09:45:33.818084,O
-,5678,2012-04-04 10:12:29.251845,I
-,Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415,2012-04-04 10:12:29.535719,O
-,2,2012-04-04 10:13:14.375285,I
-,Kana wani FUG/FCA ne?,2012-04-04 10:13:14.549863,O
-,wamba,2012-04-04 10:14:39.059817,I
-,Mainene damuwan ka?,2012-04-04 10:14:39.237927,O
-,,2012-04-04 10:15:48.720342,I
-,Mun gode! Mun ji damuwan ka.,2012-04-04 10:15:49.009713,O
-,1234,2012-04-04 10:21:12.217170,I
-,Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415,2012-04-04 10:21:12.445082,O
-,2,2012-04-04 10:22:02.084035,I
-,What FUG or FCA are you from?,2012-04-04 10:22:02.267236,O
-,1234,2012-04-04 10:59:02.938814,I
-,Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415,2012-04-04 10:59:03.257583,O
-,1234,2012-04-04 11:47:00.319946,I
-,Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415,2012-04-04 11:47:00.602998,O
-,1,2012-04-04 11:47:44.235693,I
-,How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415,2012-04-04 11:47:44.464844,O
-,2,2012-04-04 11:48:32.125584,I
-,What is your MAIN problem? 1:Service providers, 2:People from Fadama, 3:Money, 4:Other,2012-04-04 11:48:32.302005,O
-,3,2012-04-04 11:49:29.249111,I
-, 1:Delayed Funding, 2:Bank Account Opening, 3:Other,2012-04-04 11:49:29.422212,O
-,1,2012-04-04 11:50:08.831883,I
-,Thank you. Your complaint has been received.,2012-04-04 11:50:09.074805,O
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Do you belong to an FUG in Nasarawa? For yes, send "1". For no, send "2" to 0816 5677 415	2012-04-04 04:44:19.273119	O
+	1	2012-04-04 04:44:52.215533	I
+	How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415	2012-04-04 04:44:52.406075	O
+	2	2012-04-04 04:45:33.648823	I
+	What is your MAIN problem? 1:With LDP, 2:People from Fadama, 3:Money, 4:Other	2012-04-04 04:45:33.818084	O
+	5678	2012-04-04 05:12:29.251845	I
+	Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415	2012-04-04 05:12:29.535719	O
+	2	2012-04-04 05:13:14.375285	I
+	Kana wani FUG/FCA ne?	2012-04-04 05:13:14.549863	O
+	wamba	2012-04-04 05:14:39.059817	I
+	Mainene damuwan ka?	2012-04-04 05:14:39.237927	O
+		2012-04-04 05:15:48.720342	I
+	Mun gode! Mun ji damuwan ka.	2012-04-04 05:15:49.009713	O
+	1234	2012-04-04 05:21:12.217170	I
+	Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 05:21:12.445082	O
+	2	2012-04-04 05:22:02.084035	I
+	What FUG or FCA are you from?	2012-04-04 05:22:02.267236	O
+	1234	2012-04-04 05:59:02.938814	I
+	Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 05:59:03.257583	O
+	1234	2012-04-04 06:47:00.319946	I
+	Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 06:47:00.602998	O
+	1	2012-04-04 06:47:44.235693	I
+	How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415	2012-04-04 06:47:44.464844	O
+	2	2012-04-04 06:48:32.125584	I
+	What is your MAIN problem? 1:Service providers, 2:People from Fadama, 3:Money, 4:Other	2012-04-04 06:48:32.302005	O
+	3	2012-04-04 06:49:29.249111	I
+	 1:Delayed Funding, 2:Bank Account Opening, 3:Other	2012-04-04 06:49:29.422212	O
+	1	2012-04-04 06:50:08.831883	I
+	Thank you. Your complaint has been received.	2012-04-04 06:50:09.074805	O
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-23,+2348035967662,Fadama Phase II.xml,2012-04-04 08:29:52.354927,None,-1,False
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+23	+2348035967662	Fadama Phase II.xml	2012-04-04 08:29:52.354927	None	-1	False
 
-,Text,Date,Direction (In/Out)
-,Hausa1,2012-04-04 09:44:07.994823,I
-,Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415,2012-04-04 09:44:08.273864,O
-,English2,2012-04-04 13:29:52.238643,I
-,Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415,2012-04-04 13:29:52.529354,O
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 08:29:52.529354	O
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-9,+2348165693249,New Fadama Hausa.xml,2012-04-04 05:12:29.339931,2012-04-04 05:15:48.940837,0:03:19.600906,True
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+9	+2348165693249	New Fadama Hausa.xml	2012-04-04 05:12:29.339931	2012-04-04 05:15:48.940837	0:03:19.600906	True
 
-,Text,Date,Direction (In/Out)
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415	2012-04-04 05:12:29.535719	O
+	2	2012-04-04 05:13:14.375285	I
+	Kana wani FUG/FCA ne?	2012-04-04 05:13:14.549863	O
+	wamba	2012-04-04 05:14:39.059817	I
+	Mainene damuwan ka?	2012-04-04 05:14:39.237927	O
+		2012-04-04 05:15:48.720342	I
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-8,+2348105576999,Fadama Phase II Hausa.xml,2012-04-04 04:48:28.566695,None,-1,True
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+8	+2348105576999	Fadama Phase II Hausa.xml	2012-04-04 04:48:28.566695	None	-1	True
 
-,Text,Date,Direction (In/Out)
-,Hausa2,2012-04-04 09:48:28.511300,I
-,Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415,2012-04-04 09:48:28.732356,O
-,Hausa1,2012-04-04 10:18:45.373982,I
-,Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415,2012-04-04 10:18:45.637125,O
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415	2012-04-04 04:48:28.732356	O
+	Hausa1	2012-04-04 05:18:45.373982	I
+	Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415	2012-04-04 05:18:45.637125	O
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-10,+2348105576999,Fadama Phase I Hausa.xml,2012-04-04 05:18:45.462244,None,-1,False
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+10	+2348105576999	Fadama Phase I Hausa.xml	2012-04-04 05:18:45.462244	None	-1	False
 
-,Text,Date,Direction (In/Out)
-,Hausa2,2012-04-04 09:48:28.511300,I
-,Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415,2012-04-04 09:48:28.732356,O
-,Hausa1,2012-04-04 10:18:45.373982,I
-,Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415,2012-04-04 10:18:45.637125,O
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415	2012-04-04 05:18:45.637125	O
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-16,+2348165693249,New Fadama.xml,2012-04-04 06:47:00.432144,2012-04-04 06:50:09.010634,0:03:08.578490,True
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+16	+2348165693249	New Fadama.xml	2012-04-04 06:47:00.432144	2012-04-04 06:50:09.010634	0:03:08.578490	True
 
-,Text,Date,Direction (In/Out)
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 06:47:00.602998	O
+	1	2012-04-04 06:47:44.235693	I
+	How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415	2012-04-04 06:47:44.464844	O
+	2	2012-04-04 06:48:32.125584	I
+	What is your MAIN problem? 1:Service providers, 2:People from Fadama, 3:Money, 4:Other	2012-04-04 06:48:32.302005	O
+	3	2012-04-04 06:49:29.249111	I
+	 1:Delayed Funding, 2:Bank Account Opening, 3:Other	2012-04-04 06:49:29.422212	O
+	1	2012-04-04 06:50:08.831883	I
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-21,+2348034187719,New Fadama.xml,2012-04-04 07:57:39.317999,2012-04-04 08:35:33.597524,0:37:54.279525,True
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+21	+2348034187719	New Fadama.xml	2012-04-04 07:57:39.317999	2012-04-04 08:35:33.597524	0:37:54.279525	True
 
-,Text,Date,Direction (In/Out)
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 07:57:39.489796	O
+	1	2012-04-04 07:58:35.753740	I
+	How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415	2012-04-04 07:58:35.912202	O
+	1	2012-04-04 07:59:31.257609	I
+	What is going well with your project?	2012-04-04 07:59:31.433920	O
+	we have been asisted by fadahma with input nd output has inprove	2012-04-04 08:04:03.251502	I
+	Thank you. Can we ask you more questions in the future? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 08:04:03.409772	O
+	1	2012-04-04 08:35:33.401612	I
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-7,+2348105576998,Fadama Phase II Hausa.xml,2012-04-04 04:45:49.231835,None,-1,False
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+7	+2348105576998	Fadama Phase II Hausa.xml	2012-04-04 04:45:49.231835	None	-1	False
 
-,Text,Date,Direction (In/Out)
-,Hausa2,2012-04-04 09:45:49.175830,I
-,Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415,2012-04-04 09:45:49.409593,O
-,1,2012-04-04 10:32:02.246405,I
-,Yaya naka panin aiki yake tafiya? In yayi, aika 1, In baiyi ba, aika 2 zuwa 08165677415,2012-04-04 10:32:02.435077,O
-,2,2012-04-04 10:33:14.741367,I
-,Mainene damuwan ka na massamman? 1:With LDP, 2:In da mutanen fadama ne? Aika 2, 3:In damuwan kudi ne? Aika 3, 4:Land, 5:In wasu damuwa ne,2012-04-04 10:33:14.919738,O
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415	2012-04-04 04:45:49.409593	O
+	1	2012-04-04 05:32:02.246405	I
+	Yaya naka panin aiki yake tafiya? In yayi, aika 1, In baiyi ba, aika 2 zuwa 08165677415	2012-04-04 05:32:02.435077	O
+	2	2012-04-04 05:33:14.741367	I
+	Mainene damuwan ka na massamman? 1:With LDP, 2:In da mutanen fadama ne? Aika 2, 3:In damuwan kudi ne? Aika 3, 4:Land, 5:In wasu damuwa ne	2012-04-04 05:33:14.919738	O
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-11,+2348165693249,New Fadama.xml,2012-04-04 05:21:12.279676,None,-1,True
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+11	+2348165693249	New Fadama.xml	2012-04-04 05:21:12.279676	None	-1	True
 
-,Text,Date,Direction (In/Out)
-,1234,2012-04-04 09:41:52.489621,I
-,Do you belong to an FUG in Nasarawa? For yes, send "1". For no, send "2" to 0816 5677 415,2012-04-04 09:41:52.748385,O
-,ENGLISH1,2012-04-04 09:44:19.014120,I
-,Do you belong to an FUG in Nasarawa? For yes, send "1". For no, send "2" to 0816 5677 415,2012-04-04 09:44:19.273119,O
-,1,2012-04-04 09:44:52.215533,I
-,How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415,2012-04-04 09:44:52.406075,O
-,2,2012-04-04 09:45:33.648823,I
-,What is your MAIN problem? 1:With LDP, 2:People from Fadama, 3:Money, 4:Other,2012-04-04 09:45:33.818084,O
-,5678,2012-04-04 10:12:29.251845,I
-,Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415,2012-04-04 10:12:29.535719,O
-,2,2012-04-04 10:13:14.375285,I
-,Kana wani FUG/FCA ne?,2012-04-04 10:13:14.549863,O
-,wamba,2012-04-04 10:14:39.059817,I
-,Mainene damuwan ka?,2012-04-04 10:14:39.237927,O
-,,2012-04-04 10:15:48.720342,I
-,Mun gode! Mun ji damuwan ka.,2012-04-04 10:15:49.009713,O
-,1234,2012-04-04 10:21:12.217170,I
-,Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415,2012-04-04 10:21:12.445082,O
-,2,2012-04-04 10:22:02.084035,I
-,What FUG or FCA are you from?,2012-04-04 10:22:02.267236,O
-,1234,2012-04-04 10:59:02.938814,I
-,Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415,2012-04-04 10:59:03.257583,O
-,1234,2012-04-04 11:47:00.319946,I
-,Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415,2012-04-04 11:47:00.602998,O
-,1,2012-04-04 11:47:44.235693,I
-,How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415,2012-04-04 11:47:44.464844,O
-,2,2012-04-04 11:48:32.125584,I
-,What is your MAIN problem? 1:Service providers, 2:People from Fadama, 3:Money, 4:Other,2012-04-04 11:48:32.302005,O
-,3,2012-04-04 11:49:29.249111,I
-, 1:Delayed Funding, 2:Bank Account Opening, 3:Other,2012-04-04 11:49:29.422212,O
-,1,2012-04-04 11:50:08.831883,I
-,Thank you. Your complaint has been received.,2012-04-04 11:50:09.074805,O
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 05:21:12.445082	O
+	2	2012-04-04 05:22:02.084035	I
+	What FUG or FCA are you from?	2012-04-04 05:22:02.267236	O
+	1234	2012-04-04 05:59:02.938814	I
+	Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 05:59:03.257583	O
+	1234	2012-04-04 06:47:00.319946	I
+	Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 06:47:00.602998	O
+	1	2012-04-04 06:47:44.235693	I
+	How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415	2012-04-04 06:47:44.464844	O
+	2	2012-04-04 06:48:32.125584	I
+	What is your MAIN problem? 1:Service providers, 2:People from Fadama, 3:Money, 4:Other	2012-04-04 06:48:32.302005	O
+	3	2012-04-04 06:49:29.249111	I
+	 1:Delayed Funding, 2:Bank Account Opening, 3:Other	2012-04-04 06:49:29.422212	O
+	1	2012-04-04 06:50:08.831883	I
+	Thank you. Your complaint has been received.	2012-04-04 06:50:09.074805	O
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-24,+2348053615910,Fadama Phase II.xml,2012-04-04 08:33:01.058243,2012-04-04 08:46:05.057626,0:13:03.999383,True
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+24	+2348053615910	Fadama Phase II.xml	2012-04-04 08:33:01.058243	2012-04-04 08:46:05.057626	0:13:03.999383	True
 
-,Text,Date,Direction (In/Out)
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 08:33:01.225436	O
+	1	2012-04-04 08:34:58.641507	I
+	How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415	2012-04-04 08:34:58.790044	O
+	2	2012-04-04 08:37:29.156396	I
+	What is your MAIN problem? 1:Service providers, 2:People from Fadama, 3:Money, 4:Land, 5:Other	2012-04-04 08:37:29.342930	O
+	2	2012-04-04 08:41:44.215611	I
+	 1:Problems with Fadama State Officials, 2:FUG, 3:FCA, 4:Facilitators, 5:Other	2012-04-04 08:41:44.393172	O
+	1	2012-04-04 08:46:04.865321	I
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-17,+2348033589525,Fadama Phase I Hausa.xml,2012-04-04 06:56:53.486362,2012-04-04 07:10:59.573855,0:14:06.087493,True
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+17	+2348033589525	Fadama Phase I Hausa.xml	2012-04-04 06:56:53.486362	2012-04-04 07:10:59.573855	0:14:06.087493	True
 
-,Text,Date,Direction (In/Out)
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415	2012-04-04 06:56:53.645916	O
+	1	2012-04-04 07:02:26.907371	I
+	Yaya naka panin aiki yake tafiya? In yayi, aika 1, In baiyi ba, aika 2 zuwa 08165677415	2012-04-04 07:02:27.067961	O
+	1	2012-04-04 07:05:00.559524	I
+	yayi kyau da panin aikin ka?	2012-04-04 07:05:00.707525	O
+	Kiwon kaji da kiwon kifi	2012-04-04 07:08:10.685517	I
+	Mun gode. Zamu iya kara maka tambayoyin a nan gaba? In 'E', aika 1, In A'a aika 2 zuwa 08165677415	2012-04-04 07:08:10.860773	O
+	1	2012-04-04 07:10:59.378579	I
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-18,+2348091357475,New Fadama.xml,2012-04-04 07:08:53.216495,2012-04-04 07:14:01.773266,0:05:08.556771,True
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+18	+2348091357475	New Fadama.xml	2012-04-04 07:08:53.216495	2012-04-04 07:14:01.773266	0:05:08.556771	True
 
-,Text,Date,Direction (In/Out)
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 07:08:53.370226	O
+	1	2012-04-04 07:09:36.594800	I
+	How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415	2012-04-04 07:09:36.766303	O
+	2	2012-04-04 07:11:59.792956	I
+	What is your MAIN problem? 1:Service providers, 2:People from Fadama, 3:Money, 4:Other	2012-04-04 07:11:59.968316	O
+	2	2012-04-04 07:13:20.798354	I
+	 1:Problems with Fadama State Officials, 2:FUG, 3:FCA, 4:Facilitators, 5:Other	2012-04-04 07:13:20.969382	O
+	1	2012-04-04 07:14:01.603483	I
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-19,+2348094396091,New Fadama.xml,2012-04-04 07:31:21.577315,None,-1,False
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+19	+2348094396091	New Fadama.xml	2012-04-04 07:31:21.577315	None	-1	False
 
-,Text,Date,Direction (In/Out)
-,1234,2012-04-04 12:31:21.523841,I
-,Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415,2012-04-04 12:31:21.754068,O
-,1,2012-04-04 12:32:54.794719,I
-,How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415,2012-04-04 12:32:54.949160,O
-,1,2012-04-04 12:36:45.667409,I
-,What is going well with your project?,2012-04-04 12:36:45.830414,O
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415	2012-04-04 07:31:21.754068	O
+	1	2012-04-04 07:32:54.794719	I
+	How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415	2012-04-04 07:32:54.949160	O
+	1	2012-04-04 07:36:45.667409	I
+	What is going well with your project?	2012-04-04 07:36:45.830414	O
+======================	======================================================	=====================================	================	================	================	================
 
-Session ID,Phone Number,Form Name,Start Time,End Time,Time To Completion (H:MM:SS),Finished Form?
-20,+2348098321670,Fadama Phase I Hausa.xml,2012-04-04 07:44:56.400716,2012-04-04 07:46:10.099113,0:01:13.698397,True
+Session ID	Phone Number	Form Name	Start Time	End Time	Time To Completion (H:MM:SS)	Finished Form?
+20	+2348098321670	Fadama Phase I Hausa.xml	2012-04-04 07:44:56.400716	2012-04-04 07:46:10.099113	0:01:13.698397	True
 
-,Text,Date,Direction (In/Out)
-======================,======================================================,=====================================,================,================,================,================
+	Text	Date	Direction (In/Out)
+	Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415	2012-04-04 07:44:56.686388	O
+		2012-04-04 07:46:09.981999	I
+======================	======================================================	=====================================	================	================	================	================
 
