@@ -14,7 +14,7 @@
 					<not_satisfied_select />
 					<sp_confirm />
 					<people_from_fadama_select />
-					<money />
+					<information_problem />
 					<specify_problem_free />
 					<thanks_complaint_received />
 					<different_fug_or_fca />
@@ -23,7 +23,7 @@
 				</data>
 			</instance>
 			<bind nodeset="/data/confirm_location" type="xsd:int" />
-			<bind nodeset="/data/how_is_project_going" type="xsd:int" relevant="/data/confirm_location = 1"  />
+			<bind nodeset="/data/how_is_project_going" type="xsd:int" relevant="/data/confirm_location = 1" />
 			<bind nodeset="/data/well_explanation" type="xsd:string" relevant="/data/how_is_project_going = 1" />
 			<bind nodeset="/data/well_thanks" type="xsd:int" relevant="/data/how_is_project_going = 1" />
 			<bind nodeset="/data/well_thanks_yes" relevant="/data/well_thanks = 1" />
@@ -31,8 +31,8 @@
 			<bind nodeset="/data/not_satisfied_select" relevant="/data/how_is_project_going = 2" />
 			<bind nodeset="/data/sp_confirm" relevant="/data/not_satisfied_select = 'service_providers'" />
 			<bind nodeset="/data/people_from_fadama_select" relevant="/data/not_satisfied_select = 'people_from_fadama'" />
-			<bind nodeset="/data/money" relevant="/data/not_satisfied_select = 'money'" />
-			<bind nodeset="/data/specify_problem_free" type="xsd:string" relevant="/data/not_satisfied_select = 'other' or /data/sp_confirm = 'other' or /data/people_from_fadama_select = 'Other' or /data/money = 'other'" />
+			<bind nodeset="/data/information_problem" relevant="/data/not_satisfied_select = 'information'" />
+			<bind nodeset="/data/specify_problem_free" type="xsd:string" relevant="/data/not_satisfied_select = 'other' or /data/sp_confirm = 'other' or /data/people_from_fadama_select = 'Other' or /data/information_problem = 'other'" />
 			<bind nodeset="/data/thanks_complaint_received" relevant="/data/how_is_project_going = 2" />
 			<bind nodeset="/data/different_fug_or_fca" type="xsd:string" relevant="/data/confirm_location = 2" />
 			<bind nodeset="/data/describe_other_loc_problem" type="xsd:string" relevant="/data/confirm_location = 2" />
@@ -66,8 +66,8 @@
 					<text id="not_satisfied_select-people_from_fadama-label">
 						<value>People from Fadama</value>
 					</text>
-					<text id="not_satisfied_select-money-label">
-						<value>Money</value>
+					<text id="not_satisfied_select-information-label">
+						<value>Information</value>
 					</text>
 					<text id="not_satisfied_select-other-label">
 						<value>Other</value>
@@ -108,14 +108,14 @@
 					<text id="people_from_fadama_select-Other-label">
 						<value>Other</value>
 					</text>
-					<text id="money-label">
+					<text id="information_problem-label">
 						<value> </value>
 					</text>
-					<text id="money-delayed_funding-label">
-						<value>Delayed Funding</value>
+					<text id="money-input_information-label">
+						<value>Input Information</value>
 					</text>
-					<text id="money-bank_acc_opening-label">
-						<value>Bank Account Opening</value>
+					<text id="money-market_information-label">
+						<value>Market Information</value>
 					</text>
 					<text id="money-other-label">
 						<value>Other</value>
@@ -163,8 +163,8 @@
 				<value>people_from_fadama</value>
 			</item>
 			<item>
-				<label ref="jr:itext('not_satisfied_select-money-label')" />
-				<value>money</value>
+				<label ref="jr:itext('not_satisfied_select-information-label')" />
+				<value>information</value>
 			</item>
 			<item>
 				<label ref="jr:itext('not_satisfied_select-other-label')" />
@@ -209,15 +209,15 @@
 				<value>Other</value>
 			</item>
 		</select1>
-		<select1 ref="/data/money">
-			<label ref="jr:itext('money-label')" />
+		<select1 ref="/data/information_problem">
+			<label ref="jr:itext('information_problem-label')" />
 			<item>
-				<label ref="jr:itext('money-delayed_funding-label')" />
-				<value>delayed_funding</value>
+				<label ref="jr:itext('money-input_information-label')" />
+				<value>input_information</value>
 			</item>
 			<item>
-				<label ref="jr:itext('money-bank_acc_opening-label')" />
-				<value>bank_acc_opening</value>
+				<label ref="jr:itext('money-market_information-label')" />
+				<value>market_information</value>
 			</item>
 			<item>
 				<label ref="jr:itext('money-other-label')" />

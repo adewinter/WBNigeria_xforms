@@ -23,7 +23,7 @@
 				</data>
 			</instance>
 			<bind nodeset="/data/confirm_location" type="xsd:int" />
-			<bind nodeset="/data/how_is_project_going" type="xsd:int" relevant="/data/confirm_location = 1"  />
+			<bind nodeset="/data/how_is_project_going" type="xsd:int" relevant="/data/confirm_location = 1" />
 			<bind nodeset="/data/well_explanation" type="xsd:string" relevant="/data/how_is_project_going = 1" />
 			<bind nodeset="/data/well_thanks" type="xsd:int" relevant="/data/how_is_project_going = 1" />
 			<bind nodeset="/data/well_thanks_yes" relevant="/data/well_thanks = 1" />
@@ -40,7 +40,7 @@
 			<itext>
 				<translation lang="en" default="">
 					<text id="confirm_location-label">
-						<value>Do you belong to an FUG in FCT (Abuja)? For yes, send "1". For no, send "2" to 08165677415</value>
+						<value>Do you belong to an FUG in Nasarawa? For yes, send "1". For no, send "2" to 0816 5677 415</value>
 					</text>
 					<text id="how_is_project_going-label">
 						<value>How is your project going? If it's good, send "1". If you are not satisfied, send "2" to 08165677415</value>
@@ -49,7 +49,7 @@
 						<value>What is going well with your project? </value>
 					</text>
 					<text id="well_thanks-label">
-						<value>Thank you. Can we ask you more questions in the future? For yes, send "1". For no, send "2" to 08165677415</value>
+						<value>Thank you. Can we ask you more questions in the future? For yes, send "1". For no, send "2" to 0816 5677 415</value>
 					</text>
 					<text id="well_thanks_yes-label">
 						<value>Thank you! We will contact you in the future." </value>
@@ -61,7 +61,7 @@
 						<value>What is your MAIN problem?</value>
 					</text>
 					<text id="not_satisfied_select-service_providers-label">
-						<value>Service providers</value>
+						<value>With LDP</value>
 					</text>
 					<text id="not_satisfied_select-people_from_fadama-label">
 						<value>People from Fadama</value>
@@ -76,10 +76,7 @@
 						<value> </value>
 					</text>
 					<text id="sp_confirm-delay-label">
-						<value>Delay</value>
-					</text>
-					<text id="sp_confirm-stopped_project-label">
-						<value>Stopped Project</value>
+						<value>Delay in reviewing your LDP</value>
 					</text>
 					<text id="sp_confirm-other-label">
 						<value>Others</value>
@@ -110,9 +107,6 @@
 					</text>
 					<text id="money-label">
 						<value> </value>
-					</text>
-					<text id="money-delayed_funding-label">
-						<value>Delayed Funding</value>
 					</text>
 					<text id="money-bank_acc_opening-label">
 						<value>Bank Account Opening</value>
@@ -178,10 +172,6 @@
 				<value>delay</value>
 			</item>
 			<item>
-				<label ref="jr:itext('sp_confirm-stopped_project-label')" />
-				<value>stopped_project</value>
-			</item>
-			<item>
 				<label ref="jr:itext('sp_confirm-other-label')" />
 				<value>other</value>
 			</item>
@@ -211,10 +201,6 @@
 		</select1>
 		<select1 ref="/data/money">
 			<label ref="jr:itext('money-label')" />
-			<item>
-				<label ref="jr:itext('money-delayed_funding-label')" />
-				<value>delayed_funding</value>
-			</item>
 			<item>
 				<label ref="jr:itext('money-bank_acc_opening-label')" />
 				<value>bank_acc_opening</value>

@@ -23,7 +23,7 @@
 				</data>
 			</instance>
 			<bind nodeset="/data/confirm_location" type="xsd:int" />
-			<bind nodeset="/data/how_is_project_going" type="xsd:int" relevant="/data/confirm_location = 1"  />
+			<bind nodeset="/data/how_is_project_going" type="xsd:int" relevant="/data/confirm_location = 1" />
 			<bind nodeset="/data/well_explanation" type="xsd:string" relevant="/data/how_is_project_going = 1" />
 			<bind nodeset="/data/well_thanks" type="xsd:int" relevant="/data/how_is_project_going = 1" />
 			<bind nodeset="/data/well_thanks_yes" relevant="/data/well_thanks = 1" />
@@ -32,7 +32,7 @@
 			<bind nodeset="/data/sp_confirm" relevant="/data/not_satisfied_select = 'service_providers'" />
 			<bind nodeset="/data/people_from_fadama_select" relevant="/data/not_satisfied_select = 'people_from_fadama'" />
 			<bind nodeset="/data/money" relevant="/data/not_satisfied_select = 'money'" />
-			<bind nodeset="/data/specify_problem_free" type="xsd:string" relevant="/data/not_satisfied_select = 'other' or /data/sp_confirm = 'other' or /data/people_from_fadama_select = 'Other' or /data/money = 'other'" />
+			<bind nodeset="/data/specify_problem_free" type="xsd:string" relevant="/data/people_from_fadama_select = 'Other' or /data/sp_confirm = 'other' or /data/not_satisfied_select = 'other' or /data/money = 'other' or /data/not_satisfied_select = 'land_problem'" />
 			<bind nodeset="/data/thanks_complaint_received" relevant="/data/how_is_project_going = 2" />
 			<bind nodeset="/data/different_fug_or_fca" type="xsd:string" relevant="/data/confirm_location = 2" />
 			<bind nodeset="/data/describe_other_loc_problem" type="xsd:string" relevant="/data/confirm_location = 2" />
@@ -75,11 +75,8 @@
 					<text id="sp_confirm-label">
 						<value> </value>
 					</text>
-					<text id="sp_confirm-delay-label">
-						<value>Delay</value>
-					</text>
-					<text id="sp_confirm-stopped_project-label">
-						<value>Stopped Project</value>
+					<text id="sp_confirm-finding_service_providers-label">
+						<value>Finding Service Providers</value>
 					</text>
 					<text id="sp_confirm-other-label">
 						<value>Others</value>
@@ -114,9 +111,6 @@
 					<text id="money-delayed_funding-label">
 						<value>Delayed Funding</value>
 					</text>
-					<text id="money-bank_acc_opening-label">
-						<value>Bank Account Opening</value>
-					</text>
 					<text id="money-other-label">
 						<value>Other</value>
 					</text>
@@ -128,6 +122,9 @@
 					</text>
 					<text id="message_received-label">
 						<value>Your message has been received. Thank You!</value>
+					</text>
+					<text id="not_satisfied_select-land_problem-label">
+						<value>Land</value>
 					</text>
 				</translation>
 			</itext>
@@ -167,6 +164,10 @@
 				<value>money</value>
 			</item>
 			<item>
+				<label ref="jr:itext('not_satisfied_select-land_problem-label')" />
+				<value>land_problem</value>
+			</item>
+			<item>
 				<label ref="jr:itext('not_satisfied_select-other-label')" />
 				<value>other</value>
 			</item>
@@ -174,12 +175,8 @@
 		<select1 ref="/data/sp_confirm">
 			<label ref="jr:itext('sp_confirm-label')" />
 			<item>
-				<label ref="jr:itext('sp_confirm-delay-label')" />
-				<value>delay</value>
-			</item>
-			<item>
-				<label ref="jr:itext('sp_confirm-stopped_project-label')" />
-				<value>stopped_project</value>
+				<label ref="jr:itext('sp_confirm-finding_service_providers-label')" />
+				<value>finding_service_providers</value>
 			</item>
 			<item>
 				<label ref="jr:itext('sp_confirm-other-label')" />
@@ -214,10 +211,6 @@
 			<item>
 				<label ref="jr:itext('money-delayed_funding-label')" />
 				<value>delayed_funding</value>
-			</item>
-			<item>
-				<label ref="jr:itext('money-bank_acc_opening-label')" />
-				<value>bank_acc_opening</value>
 			</item>
 			<item>
 				<label ref="jr:itext('money-other-label')" />
