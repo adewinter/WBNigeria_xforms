@@ -40,7 +40,7 @@
 			<itext>
 				<translation lang="hs" default="">
 					<text id="confirm_location-label">
-						<value>Kana cikin FUG na FCT(Abuja)? In ‘E’, aika 1, In A’A, aika 2 zuwa 08165677415</value>
+						<value>Kana cikin FUG na FCT(Abuja)? In 'E', aika 1, In A'A, aika 2 zuwa 08165677415</value>
 					</text>
 					<text id="how_is_project_going-label">
 						<value>Yaya naka panin aiki yake tafiya? In yayi, aika 1, In baiyi ba, aika 2 zuwa 08165677415</value>
@@ -49,7 +49,7 @@
 						<value>yayi kyau da panin aikin ka?</value>
 					</text>
 					<text id="well_thanks-label">
-						<value>Mun gode. Zamu iya kara maka tambayoyin a nan gaba? In ‘E’, aika 1, In A’a aika 2 zuwa 08165677415</value>
+						<value>Mun gode. Zamu iya kara maka tambayoyin a nan gaba? In 'E', aika 1, In A'a aika 2 zuwa 08165677415</value>
 					</text>
 					<text id="well_thanks_yes-label">
 						<value>Mun gode! Za mu nema ka a nan gaba.</value>
@@ -91,7 +91,7 @@
 						<value> </value>
 					</text>
 					<text id="people_from_fadama_select-fadama_state_officials-label">
-						<value>In kana da damuwa da ma’aikatan fadama</value>
+						<value>In kana da damuwa da ma'aikatan fadama</value>
 					</text>
 					<text id="people_from_fadama_select-fug-label">
 						<value>In da FUG ne</value>
